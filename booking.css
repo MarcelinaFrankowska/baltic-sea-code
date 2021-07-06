@@ -1,0 +1,115 @@
+@import "shared.css";
+
+
+
+
+#booking {
+    padding: 10% 0;
+
+}
+
+.form-control {
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid #027373;
+    padding: 4% 0
+}
+
+::placeholder {
+
+    opacity: 1;
+    text-align: left;
+    color: #027373
+}
+
+.form-label {
+    margin: 5% 15%;
+    text-align: left;
+    color: #027373
+}
+
+.message {
+    height: 100px;
+}
+
+.bookingForm button {
+    background-color: #027373;
+    color: white;
+}
+
+footer {
+    padding-top: 5vh;
+}
+
+@media(min-width:768px) {
+    .contactUs {
+        padding-top: 0;
+    }
+
+    .text {
+        padding: 10%;
+    }
+
+    h1 {
+        text-align: left;
+        padding-left: 0
+    }
+
+    .text p {
+        text-align: left;
+        padding: 0;
+
+    }
+
+    .form-control {
+        background-color: transparent
+    }
+
+    /*Booking Form*/
+    .bookingForm {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .form-group {
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    .form-control {
+        width: 90%;
+    }
+
+    .form-label {
+        text-align: left;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    form button {
+        position: relative;
+        right: -30%
+    }
+}
+
+
+@media(min-width:1200px) {
+    .first {
+        display: flex;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .text {
+        flex-basis: 50%;
+        position: relative;
+        padding: 5% 10%;
+    }
+
+    #booking {
+        flex-basis: 50%;
+        position: relative;
+        padding: 0
+    }
+
+}
