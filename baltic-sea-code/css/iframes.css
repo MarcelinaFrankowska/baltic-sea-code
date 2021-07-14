@@ -1,0 +1,41 @@
+.frameContainer {
+    overflow: hidden;
+    position: relative;
+    width: 96vw;
+    margin-left: 2%;
+    height: 50vh;
+}
+
+.map,
+.calendar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    left: 0;
+    top: 0;
+}
+
+@media(min-width:768px) {
+    .frameContainer {
+        width: 90vw;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+}
+
+@media(min-width:1200px) {
+    .frameContainer {
+        width: 90vw;
+        margin-left: 5%;
+        margin-top: 10%;
+    }
+
+    .second .frameContainer {
+        width: 50%;
+        margin: 0 0 0 5%;
+        align-self: center;
+
+    }
+
+}

@@ -1,0 +1,112 @@
+#myLinks {
+    display: none;
+}
+
+.nav-bar {
+    display: flex;
+    overflow: hidden;
+}
+
+.nav-bar div {
+    border-right: 2px solid #f2E3D5;
+    padding-bottom: 5%;
+}
+
+.navi {
+    flex-basis: 33%;
+}
+
+.hamburger {
+    position: absolute;
+    top: 5%;
+    right: 15%
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    margin-top: 90px;
+    padding: 10% 0;
+}
+
+.iconNav {
+    display: block;
+    margin-top: 20%
+}
+
+.nav-bar a {
+    letter-spacing: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu a {
+    padding: 14px 0;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.menu .tablet {
+    display: none;
+}
+
+.home a,
+.home a:visited,
+.booking a,
+.booking a:visited {
+    color: black
+}
+
+@media(min-width:768px) {
+    #myLinks {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .menu {
+        display: block !important;
+        background-color: white;
+        padding: 0;
+        margin-top: 0;
+        width: 90%;
+        top: 7%;
+        right: 5%
+    }
+
+    .menu a {
+        padding: 0 0 0 5%;
+        display: inline-block;
+        color: black !important;
+    }
+
+    .home,
+    .booking {
+        display: none;
+    }
+
+    .nav-bar div {
+        border: none;
+    }
+
+    .menu .tablet {
+        display: inline-block;
+    }
+}
+
+@media(min-width:1200px) {
+    .menu {
+        width: 60%;
+        text-align: right;
+    }
+
+    .menu a {
+        padding: 0 0 0 5%;
+    }
+
+}

@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 19px;
+}
+
+/*size*/
+
+.desktop {
+    display: none;
+}
+
+/*Sections*/
+
+section {
+    margin-bottom: 20%
+}
+
+.thankYou {
+    height: 40vh
+}
+
+.intro {
+    height: 90vh;
+    overflow: hidden;
+    background-image: url("/./assets/shared/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    margin-bottom: 0;
+}
+
+/*Elements*/
+
+button {
+    background-color: white;
+    padding: 2% 5%;
+    margin: 5% 0;
+    cursor: pointer;
+    color: black;
+}
+
+.touchBtn a,
+.touchBtn a:visited {
+    color: black;
+    background-color: white;
+    padding: 2% 5%;
+    margin: 5% 0;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 15% 5% 5%;
+}
+
+.sand h1,
+.sand h2 {
+    color: #04adbf;
+    padding: 5% 5%;
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 5% 5%;
+}
+
+p {
+    font-weight: 400;
+    padding: 0 10%;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+/*Styles*/
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    color: WHITE;
+    text-shadow: 3px 3px 20px #04adbf,
+        -2px 1px 30px #04adbf;
+}
+
+.blue {
+    background-color: #04adbf;
+    color: white;
+}
+
+.sand {
+    background-color: #f2e3d5;
+    color: rgb(58, 56, 56);
+    text-align: justify;
+}
+
+.contactS {
+    padding: 10%;
+}
+
+.adressS {
+    padding: 10%;
+}
+
+.rounded {
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.pbt10 {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+@media(min-width:768px) {
+
+    * {
+        font-size: 22px;
+    }
+
+    /*size*/
+    .tablet {
+        display: inline-block;
+    }
+
+    /*Sections*/
+
+    .first {
+        width: 90%;
+        margin: 20% auto 0 !important;
+        border: 2px solid transparent;
+        border-radius: 20px;
+    }
+
+    .intro {
+        height: 80vh;
+    }
+
+    .thankYou {
+        height: 30vh;
+        margin: 20% auto;
+        border-radius: 20px;
+    }
+
+    .text {
+        padding: 10%;
+    }
+
+    .text p {
+        text-align: left;
+        padding: 0;
+    }
+
+    /*Styles*/
+
+    .contactS {
+        margin-bottom: 10%;
+        padding: 3%;
+    }
+
+    .rounded {
+        border-radius: 20px;
+    }
+
+    .rounded-Tablet {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .rounded-Tablet div {
+        border-radius: 20px;
+        margin-bottom: 10%;
+    }
+
+    .rounded-Tablet p {
+        padding-bottom: 10%
+    }
+
+    /*Elements*/
+
+    h1 {
+        font-size: 45px;
+        padding: 10% 15% 5%;
+    }
+
+    h2 {
+        font-size: 35px;
+        letter-spacing: 3px;
+        padding: 3% 0;
+    }
+
+    h3 {
+        font-size: 22px;
+        padding: 5% 0;
+    }
+
+    a,
+    a:visited {
+        letter-spacing: 2px;
+    }
+}
+
+@media(min-width:1200px) {
+    * {
+        font-size: 16px;
+    }
+
+    /*size*/
+    .desktop {
+        display: block;
+    }
+
+    /*Sections*/
+    section {
+        margin-bottom: 10%;
+    }
+
+    .first {
+        margin: 10% auto 0 !important;
+    }
+
+    .intro {
+        height: 80vh;
+        padding-bottom: 10%;
+        background-position: center;
+    }
+
+    .intro div h1 {
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    .contactS {
+        padding: 0;
+    }
+
+    .text {
+        flex-basis: 50%;
+        position: relative;
+        padding: 5% 10%;
+    }
+
+    .contactUs {
+        display: flex;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .second {
+        display: flex;
+        margin-top: 10%;
+        background-color: #f2e3d5;
+        border-radius: 20px;
+    }
+
+    .second .sand {
+        width: 40%;
+        margin: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .about {
+        background-color: #f2e3d5;
+        position: relative;
+        padding-top: 0
+    }
+
+    .about .invite {
+        width: 30%;
+        margin-bottom: 0
+    }
+
+    .about .carousel {
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translateY(-50%);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .about .carousel-inner {
+        margin-bottom: 0;
+    }
+
+
+    /*Styles*/
+
+    .pbt10 {
+        padding-bottom: 10%;
+    }
+
+    .centered {
+        position: absolute;
+        margin: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .mb0 {
+        margin-bottom: 5%;
+    }
+
+    /*Elements*/
+
+    h1 {
+        padding: 8% 15% 5%;
+    }
+
+}

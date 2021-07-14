@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png"  href="./assets/favicon-16x16.png">
+  
+  <title> Rezerwacja || Apartament w Kołobrzegu</title>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/579486ad1f.js" crossorigin="anonymous"></script>
+  <!--Fonts-->
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+ <!--CSS-->
+ <link rel="stylesheet" href="/./css/style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-bar">
+      <div class="home navi"> <i class="fas fa-home iconNav"></i><a href="index.html">Strona główna</a></div>
+
+      <div class="booking navi"> <a href="booking.html"> <i class="fas fa-concierge-bell iconNav"></i>Rezerwuj</a></div>
+     
+    <div id="myLinks" class="menu navi">
+    <a class="tablet" href="index.html">Główna</a>  
+    <a href="about.html">Apartament</a>
+    <a href="booking.html">Rezerwacja</a>
+    <a href="contact.html">Kontakt</a>
+    <a href="atractions.html">Atrakcje</a>
+   </div> 
+
+   <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
+  <a href="javascript:void(0);" class="icon"  onclick="myFunction()">
+    <img id="icon" class="hamburger" src="/./assets/shared/icon-hamburger.svg">
+   
+  </a>
+
+   </div>
+  </header>
+
+  <section class="sand first contactUs">
+    <div class="text">
+        <h1>Zarezerwuj już dziś!</h1>
+        <p>Sprawdź dostepne terminy i już dziś zarezerwuj swój pobyt w Apartamencie w Kołobrzegu. Zapraszamy do kontaktu telefonicznego lub poprzez  dostepny niżej formularz rezerwacyjny. </p> 
+    </div>
+
+    <div>
+      <img class="desktop" src="/./assets/photo/kolobrzeg-2pok-apart50m-od-morza-5.jpg" alt="apartament kołobrzeg">
+    </div>
+    </section>
+
+    <div class="frameContainer rounded">
+      <iframe class="calendar" src="https://calendar.google.com/calendar/embed?src=8nkpg5ujqp4j8hqg661hr0lq4o%40group.calendar.google.com&ctz=Europe%2FWarsaw"
+style="border: 0" width="800" height="600" frameborder="0" 
+scrolling="no"></iframe>
+    </div>
+    
+     <section class="facilities">
+    <div class="room">
+      <h2>Przydatne informacje</h2>
+      <div class="facilityItems">
+      <div class="facility">
+        <img class="icon" src="/./assets/icons/wall-clock.svg">
+      <p>Zameldowanie po 14.</p>
+      </div>
+
+      <div class="facility">
+        <img class="icon" src="/./assets/icons/wall-clock.svg">
+      <p>Wymeldowanie przed 10.</p>
+      </div>
+
+      <div class="facility">
+        <img class="icon" src="/./assets/icons/banknotes.svg">
+      <p>Zadatek wynosi 30% wartości rezerwacji i jest podstawą potwierdzenia rezerwacji. Pozostałą kwotę zapłacisz po przyjeździe do obiektu.</p>
+      </div>
+
+      <div class="facility">
+        <img class="icon" src="/./assets/icons/arrow-circle-with-half-broken-line.svg">
+      <p>Odwołanie rezerwacji jest bezpłatne przed wpłatą zadatku. Po wpłacie zadatku opłata rezygnacyjna wynosi 30% wartości rezerwacji.</p>
+      </div>
+
+      <div class="facility">
+        <img class="icon" src="/./assets/icons/credit-card.svg">
+      <p>Akceptujemy płatność przelewem oraz gotówką.</p>
+      </div>
+
+
+      <div class="facility">
+        <img class="icon" src="/./assets/icons/track.svg">
+      <p class="info">Zwierzęta nie są akceptowane.</p>
+      </div>
+
+      <div class="facility">
+        <img class="icon" src="/./assets/icons/cigarette.svg">
+      <p class="info">Palenie jest zabronione.</p>
+      </div>
+
+</div>
+
+    </div>
+    <div class="flaticon">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  </section>
+
+  <section class="sand bookingForm rounded">
+
+  
+    <div id="booking" class="section">
+       
+      <form action="https://formsubmit.co/apartamenty.bozdan@gmail.com" method="POST">
+
+        <input type="hidden" name="_subject" value="Apartament Kołobrzeg - nowa wiadomość">
+        <!--PUT THANKS.HTML PATH HERE-->
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+
+        <div class="form-group">
+          <input class="form-control sand" type="text" name="name" placeholder="Imię i nazwisko">
+        </div>
+          
+        <div class="form-group">
+          <input class="form-control sand" type="email" name="email" placeholder="Email">
+        </div>
+
+        <div class="form-group">
+          <input class="form-control sand" type="number" name="phone" placeholder="Numer telefonu">
+        </div>
+
+        <div class="form-group">
+          <div class="label">
+            <p class="form-label">Wiadomość</p>
+          </div>
+
+          <input class="form-control message sand" type="text" name="message">
+        </div>
+      
+        <button  class="rounded" type="submit">Wyślij</button>  
+      
+      </form>
+      
+    </div>
+ 
+  </section>
+ 
+  <footer class="black footerB">
+    
+
+    <div class="contact">
+      <div class="adress">
+      <h4>Apartament Kołobrzeg</h4>  
+      <p>ul. Cicha 12</p>
+      <p>74-100 Kołobrzeg</p>
+      </div>
+      
+      <div class="mail">
+      <h4>Rezerwacje</h4>  
+       <p>Tel: 501 331 905</p> 
+       <p>apartamenty.bozdan@gmail.com</p> 
+      </div>
+     
+      <div class="social">
+        <h4>Zobacz nas na Facebooku</h4>
+        <a href="http://www.facebook.com">
+          <i class="fab fa-facebook-square"></i>
+    </div>
+   
+  </footer>
+
+   <!--!JS-->
+   <script src="/./index.js"></script>
+ 
+</body>
+</html>
