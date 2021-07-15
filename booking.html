@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png"  href="./assets/favicon-16x16.png">
+  <link rel="icon" type="image/png"  href="assets/favicon-16x16.png">
   
   <title> Rezerwacja || Apartament w Kołobrzegu</title>
 
@@ -14,7 +14,7 @@
  <link rel="preconnect" href="https://fonts.gstatic.com">
  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
  <!--CSS-->
- <link rel="stylesheet" href="booking.css">
+ <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
@@ -34,7 +34,7 @@
    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
 
   <a href="javascript:void(0);" class="icon"  onclick="myFunction()">
-    <img id="icon" class="hamburger" src="./assets/mobile/icon-hamburger.svg">
+    <img id="icon" class="hamburger" src="assets/shared/icon-hamburger.svg">
    
   </a>
 
@@ -48,7 +48,7 @@
     </div>
 
     <div>
-      <img class="desktop" src="./assets/galeria/kolobrzeg-2pok-apart50m-od-morza-5.jpg" alt="apartament kołobrzeg">
+      <img class="desktop" src="assets/photo/kolobrzeg-2pok-apart50m-od-morza-5.jpg" alt="apartament kołobrzeg">
     </div>
     </section>
 
@@ -63,38 +63,38 @@ scrolling="no"></iframe>
       <h2>Przydatne informacje</h2>
       <div class="facilityItems">
       <div class="facility">
-        <img class="icon" src="./assets/icons/wall-clock.svg">
+        <img class="icon" src="assets/icons/wall-clock.svg">
       <p>Zameldowanie po 14.</p>
       </div>
 
       <div class="facility">
-        <img class="icon" src="./assets/icons/wall-clock.svg">
+        <img class="icon" src="assets/icons/wall-clock.svg">
       <p>Wymeldowanie przed 10.</p>
       </div>
 
       <div class="facility">
-        <img class="icon" src="./assets/icons/banknotes.svg">
+        <img class="icon" src="assets/icons/banknotes.svg">
       <p>Zadatek wynosi 30% wartości rezerwacji i jest podstawą potwierdzenia rezerwacji. Pozostałą kwotę zapłacisz po przyjeździe do obiektu.</p>
       </div>
 
       <div class="facility">
-        <img class="icon" src="./assets/icons/arrow-circle-with-half-broken-line.svg">
+        <img class="icon" src="assets/icons/arrow-circle-with-half-broken-line.svg">
       <p>Odwołanie rezerwacji jest bezpłatne przed wpłatą zadatku. Po wpłacie zadatku opłata rezygnacyjna wynosi 30% wartości rezerwacji.</p>
       </div>
 
       <div class="facility">
-        <img class="icon" src="./assets/icons/credit-card.svg">
+        <img class="icon" src="assets/icons/credit-card.svg">
       <p>Akceptujemy płatność przelewem oraz gotówką.</p>
       </div>
 
 
       <div class="facility">
-        <img class="icon" src="./assets/icons/track.svg">
+        <img class="icon" src="assets/icons/track.svg">
       <p class="info">Zwierzęta nie są akceptowane.</p>
       </div>
 
       <div class="facility">
-        <img class="icon" src="./assets/icons/cigarette.svg">
+        <img class="icon" src="assets/icons/cigarette.svg">
       <p class="info">Palenie jest zabronione.</p>
       </div>
 
@@ -109,17 +109,22 @@ scrolling="no"></iframe>
   
     <div id="booking" class="section">
        
-      <form>
+      <form action="https://formsubmit.co/apartamenty.bozdan@gmail.com" method="POST">
+
+        <input type="hidden" name="_subject" value="Apartament Kołobrzeg - nowa wiadomość">
+        <!--PUT THANKS.HTML PATH HERE-->
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+
         <div class="form-group">
-          <input class="form-control sand" type="text" placeholder="Imię i nazwisko">
+          <input class="form-control sand" type="text" name="name" placeholder="Imię i nazwisko">
         </div>
           
         <div class="form-group">
-          <input class="form-control sand" type="text" placeholder="Email">
+          <input class="form-control sand" type="email" name="email" placeholder="Email">
         </div>
 
         <div class="form-group">
-          <input class="form-control sand" type="number" placeholder="Numer telefonu">
+          <input class="form-control sand" type="number" name="phone" placeholder="Numer telefonu">
         </div>
 
         <div class="form-group">
@@ -127,10 +132,10 @@ scrolling="no"></iframe>
             <p class="form-label">Wiadomość</p>
           </div>
 
-          <input class="form-control message sand" type="text">
+          <input class="form-control message sand" type="text" name="message">
         </div>
       
-        <button class="rounded">Wyślij</button>  
+        <button  class="rounded" type="submit">Wyślij</button>  
       
       </form>
       
@@ -138,7 +143,7 @@ scrolling="no"></iframe>
  
   </section>
  
-  <footer class="black">
+  <footer class="black footerB">
     
 
     <div class="contact">
@@ -163,7 +168,7 @@ scrolling="no"></iframe>
   </footer>
 
    <!--!JS-->
- <script src="index.js"></script>
+   <script src="index.js"></script>
  
 </body>
 </html>
