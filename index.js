@@ -4,9 +4,9 @@ function myFunction() {
 
     if (menu.style.display === "block") {
         menu.style.display = "none";
-        icon.src = "./assets/mobile/icon-hamburger.svg";
+        icon.src = "/./assets/shared/icon-hamburger.svg";
     } else {
         menu.style.display = "block";
-        icon.src = "./assets/mobile/icon-close.svg";
+        icon.src = "/./assets/shared/icon-close.svg";
     }
 }
