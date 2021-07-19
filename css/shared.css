@@ -123,8 +123,18 @@ a:visited {
     padding: 10%;
 }
 
-.adressS {
-    padding: 10%;
+.adressS,
+.mailS {
+    padding: 5%;
+}
+
+.adressS p,
+.mailS p {
+    padding: 0;
+}
+
+.mailS {
+    padding-bottom: 10%
 }
 
 .rounded {
@@ -262,6 +272,12 @@ a:visited {
 
     .contactS {
         padding: 0;
+    }
+
+    .adressS,
+    .mailS {
+        padding-bottom: 0;
+
     }
 
     .text {
