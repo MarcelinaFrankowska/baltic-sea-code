@@ -27,7 +27,7 @@ section {
 .intro {
     height: 90vh;
     overflow: hidden;
-    background-image: url("/./assets/shared/beach.jpg");
+    background-image: url("/assets/shared/beach.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
